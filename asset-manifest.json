@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pokeapi/static/css/main.a963f7aa.css",
+    "main.js": "/pokeapi/static/js/main.8ba60613.js",
+    "static/js/787.7902d902.chunk.js": "/pokeapi/static/js/787.7902d902.chunk.js",
+    "static/media/logoedu.png": "/pokeapi/static/media/logoedu.12a3d54c0a48a32c1623.png",
+    "index.html": "/pokeapi/index.html",
+    "main.a963f7aa.css.map": "/pokeapi/static/css/main.a963f7aa.css.map",
+    "main.8ba60613.js.map": "/pokeapi/static/js/main.8ba60613.js.map",
+    "787.7902d902.chunk.js.map": "/pokeapi/static/js/787.7902d902.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a963f7aa.css",
+    "static/js/main.8ba60613.js"
+  ]
+}
