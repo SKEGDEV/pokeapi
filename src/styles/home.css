@@ -1,0 +1,39 @@
+.welcome{
+	width: 95%;	
+	margin: 2.5%;
+	border: 3px solid;
+	border-color: white;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.welcome h1{
+	margin-top: 60px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.welcome p{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: white;
+	text-align: justify;
+}
+
+.logo-home img,
+.home-pokemon img{
+	width: 125px;
+	margin-top: -40px;
+}
+
+.logo-home{
+	float: left;	
+	margin-left:10px;
+}
+
+.home-pokemon{
+	float: right;	
+	margin-right:10px;
+}

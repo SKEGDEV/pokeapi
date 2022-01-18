@@ -1,0 +1,88 @@
+body{
+	background: #0d4ca2;
+}
+
+.logo-modal{
+	width: 90%;
+	margin-left: 5%;
+	cursor: pointer;
+}
+
+.logo-modal:hover{
+	content: url(https://img.search.brave.com/cBLQlsZ1F3ctCZR9w0gkMr-WcW2LBrLg35v2KIlXgqM/fit/500/250/ce/1/aHR0cDovL3VzZXJp/bWFnZXMwNS1ha20u/aW12dS5jb20vcHJv/ZHVjdGRhdGEvc3Rp/Y2tlcnNfM2FjYmFj/ODE4MjNmYWE0Nzc3/YTlhMWNlYmJhMzU4/YjIuZ2lm.gif);
+}
+
+.cards-pokemon{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-pokemon{
+	width: 220px;
+	height: 150px;
+	padding: 10px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+	border-radius: 10px;
+	text-align: center;
+	background-color:#063274;
+	margin: 20px;
+}
+
+.card-pokemon h2{
+	color: white;
+}
+
+.card-pokemon button{
+	padding: 10px;
+	background-color: transparent;
+	border: 1px solid;
+	color:white;
+	border-radius: 10px;
+	border-color: white;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+.card-pokemon button:hover{
+	background-color: #bde9fe;
+	color: black;
+}
+
+.name{
+	text-align: center;
+}
+
+.stats-tittle{
+	width: 100%;
+	text-align: center;
+}
+
+.next-button,
+.prev-button{
+	float: right;
+	margin-right: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: transparent;
+	border: 1px solid;
+	outline: none;
+	color: white;
+	border-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	transition: 0.5s ease-in-out;
+}
+
+.prev-button{
+	float: left;
+	margin-right: 0px;
+	margin-left: 40px;
+}
+
+.next-button:hover,
+.prev-button:hover{
+	background-color: #bde9fe;
+	color: black;
+}
+

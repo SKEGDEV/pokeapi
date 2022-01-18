@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+	font-family:'Montserrat', sans-serif;;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+	border-radius: 15px;
+	height: 80px;
+	background-color:#063274;
+	margin-bottom: 40px;
+}
+
+header .menu-nav{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin-left: 49%;
+	margin-top: -1px;
+}
+
+header .menu-nav li{
+	margin-left: 20px;
+}
+
+header .menu-nav li button{
+	height: 80px;
+	width: 100px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	background-color: transparent;
+	color: white;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-color: white;
+	transition: all 0.5s ease-in-out;
+}
+
+header .menu-nav li button:hover{
+	background-color: #bde9fe;
+	color: black;
+}
+
+.logo-nav{
+	width: 150px;
+	height: 70px;
+	transition: 0.5s ease-in-out;
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+.logo-nav:hover{
+	content: url(https://img.search.brave.com/cBLQlsZ1F3ctCZR9w0gkMr-WcW2LBrLg35v2KIlXgqM/fit/500/250/ce/1/aHR0cDovL3VzZXJp/bWFnZXMwNS1ha20u/aW12dS5jb20vcHJv/ZHVjdGRhdGEvc3Rp/Y2tlcnNfM2FjYmFj/ODE4MjNmYWE0Nzc3/YTlhMWNlYmJhMzU4/YjIuZ2lm.gif);
+}
+
+@media only screen and (max-width:1170px) {
+
+	footer .powered-by{
+		margin-left: 40%;
+	}
+
+	footer .icons{
+		margin-left: 20px;
+	}
+
+	footer .follow{
+		margin-left: 0px;
+	}
+
+	.search-form .input{
+		margin-left: 29%;
+	}
+
+	.burger{
+		margin-top: 10px;
+		transition: all 0.5s ease-in-out;
+		margin-left: 75%;
+		overflow-x: hidden;
+	}
+
+	.burger .line1,
+	.burger .line2,
+	.burger .line3{
+		width: 35px;
+		height: 2px;
+		background-color:white;
+		margin-top: 10px;
+		transition: all 0.5s ease-in-out;
+	}
+
+	.activate .line1{
+		transform:rotate(-50deg);
+		margin-top: 15px;
+	}
+
+	.activate .line2{
+		transform: translateX(-1000px);
+	}
+	.activate .line3{
+		transform: rotate(50deg); 
+		margin-top: -15px;
+	}
+
+	header .logo-nav{
+		width: 100px;
+		height: 40px;
+		margin-top: 10px;
+	}
+
+	header .menu-nav{
+		position: absolute;
+		flex-direction: column;
+		margin-left: 5%;
+		margin-top: 87px;
+		width: 90%;	
+		height: 0px;
+		overflow-y: hidden;
+		background-color: #063274;	
+		text-align: center;
+		border-radius: 10px;
+		box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+		padding: 0px;
+		transition: all 0.5s ease-in-out;
+	}
+
+	header .expand{
+		height: 500px;	
+	}
+
+
+	header .menu-nav li{
+		margin-top: 50px;
+		margin-bottom: 30px;
+		width: 100%;	
+		padding: 0px;
+	}
+
+	header .menu-nav li button{
+		border: none;
+		border-bottom: 1px solid;
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width:670px){
+	.burger{
+		margin-left:50%;
+	}
+	footer .powered-by{
+		margin-left: 7%;
+		margin-top: 0px;
+		font-size: 14px;
+		margin-top: 13px;
+	}
+	footer .icons{
+		margin-left: 10px;
+	}
+	footer .follow{
+		margin: 0px;
+		font-size: 14px;
+		margin-top: 14px;
+	}
+	footer .footer-img{
+		margin-left: 10px;
+		width: 90px;
+		height: 50px;
+		margin-top: 10px;
+	}
+
+	.search-form .input{
+		margin-left: 3%;
+	}
+
+	.cards-pokemon .card-pokemon{
+		margin-left: 70px;
+	}
+
+}
+
