@@ -20,7 +20,7 @@ export default function Footer(){
 			<BsWhatsapp className="icons"/>
 			</a>
 			<p className="powered-by">Powered by: </p>
-			<img className="footer-img" src={logoedu} alt="caducated" />
+			<a href="http://SKEGDEV.github.io/portfolio-work" target="_blank"><img className="footer-img" src={logoedu} alt="caducated" /></a>
 		</footer>
 	)
 }
